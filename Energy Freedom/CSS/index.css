@@ -1,0 +1,175 @@
+/* Common CSS Start */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f2f2f2 !important;
+}
+/* Header CSS Start */
+
+nav {
+  background-color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.header {
+  height: 5rem;
+}
+.logo {
+  height: 5rem;
+}
+.main-offcanvas {
+  background-color: transparent;
+  opacity: 0.9;
+  z-index: 999;
+}
+.canvas-bg-color {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 20% !important;
+}
+.canvas-cross {
+  background-color: white;
+  color: black;
+}
+.nav-ul {
+  list-style: none;
+}
+.nav-ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-ul > li > a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: #a4a3a3;
+  transition: width 0.4s ease;
+}
+.nav-ul > li > a:hover {
+  color: #a4a3a3;
+}
+.nav-ul > li > a:hover::after {
+  width: 100%;
+}
+.nav-ul > li {
+  padding-bottom: 5%;
+  padding-top: 5px;
+}
+.main-offcanvas > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+
+/* Main CSS Start */
+
+/* Hero-Section CSS Start */
+
+.hero-section{
+    height:133vh;
+}
+
+.main-headline > p {
+  font-size: 4.5rem;
+}
+.hero-img {
+  height: 70vh;
+  object-fit: cover;
+  z-index: -999;
+}
+
+.advantages-card {
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 217px;
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+}
+.child-advantages-card {
+  background-color: #c4b35d;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  line-height: 90px;
+}
+.child-advantages-card > img {
+  object-fit: contain;
+}
+.advantages-card > h5 {
+  margin-top: 15px;
+}
+.child-advantages {
+  top: 82%;
+}
+
+
+/* ABC-Energy-Section CSS Start */
+.abc-energy{
+    height: 50vh;
+}
+.blog-card{
+    width: 27%;
+}
+.blog-card>h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-size:48px;
+}
+.blog-card>p{
+    color: grey;
+    font-size: 15px;
+}
+.blog-card>a{
+    color: black;
+    text-underline-offset: 4px;
+}
+.blog-card>a:hover{
+    color: #c4b35d;
+    transition: all 0.2s linear;
+}
+
+/* Residential-Section CSS Start */
+
+.residential{
+    background-image: url("/Images/Nature.jpg");
+    width: 100%;
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -11;
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.381),#0000008b);
+
+}
+.residential::before{
+    content: "";
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.381),#0000008b);
+    background-color: #C4B35D !important;
+    z-index: 9999;
+    position: absolute;
+    width: 50%;
+    height:70vh;    
+    left: 50%;
+    z-index: -1;
+}
+
+.benifit-div{
+    width: 30%;
+}
+.residential-h2>h2{
+    font-size: 50px !important;
+}
