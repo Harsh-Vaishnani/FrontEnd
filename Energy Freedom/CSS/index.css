@@ -79,8 +79,8 @@ nav {
 
 /* Hero-Section CSS Start */
 
-.hero-section{
-    height:133vh;
+.hero-section {
+  height: 150vh;
 }
 
 .main-headline > p {
@@ -116,60 +116,181 @@ nav {
 .child-advantages {
   top: 82%;
 }
+/* Clean Energy-Section CSS Start */
+.clean-energy {
+  height: 100vh;
+}
+.clean-first {
+  width: 40%;
+  height: 60vh;
+  padding: 50px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  z-index: 1;
+  background-color: white;
+  top:36vh;
+}
+.clean-first > h2 {
+  font-size: 49px;
+}
+.clean-first > p {
+  font-size: 18px;
+}
+.clean-btn {
+  background-color: #c4b35d;
+  width: 50%;
+  height: 55px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 55px;
+}
+.clean-btn:hover{
+  background-color: #595125;
+  transition: all 0.2s linear;
 
-
+}
+.clean-btn > a {
+  color: white;
+}
+.clean-second {
+  right: 0;
+  z-index: -1;
+  top:10vh;
+}
+.clean-second > img {
+  width: 90%;
+  height: 80vh;
+  object-fit: cover;
+}
+.clean-third {
+  background-color: #c4b35d;
+  width: 30%;
+  position:absolute;
+  right: 0;
+  height: 100vh;
+  z-index: -999;
+}
 /* ABC-Energy-Section CSS Start */
-.abc-energy{
-    height: 50vh;
+.abc-energy {
+  height: 100vh;
 }
-.blog-card{
-    width: 27%;
+.blog-card {
+  width: 27%;
 }
-.blog-card>h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
-    font-size:48px;
+.blog-card > h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+  font-size: 48px;
 }
-.blog-card>p{
-    color: grey;
-    font-size: 15px;
+.blog-card > p {
+  color: grey;
+  font-size: 15px;
 }
-.blog-card>a{
-    color: black;
-    text-underline-offset: 4px;
+.blog-card > a {
+  color: black;
+  text-underline-offset: 4px;
 }
-.blog-card>a:hover{
-    color: #c4b35d;
-    transition: all 0.2s linear;
+.blog-card > a:hover {
+  color: #c4b35d;
+  transition: all 0.2s linear;
 }
 
 /* Residential-Section CSS Start */
 
-.residential{
-    background-image: url("/Images/Nature.jpg");
-    width: 100%;
-    height:70vh;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: -11;
-    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.381),#0000008b);
-
+.residential {
+  background: url("../Images/Nature.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: -11;
+  border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.603), #0000008b);
+  overflow: hidden;
 }
-.residential::before{
-    content: "";
-    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.381),#0000008b);
-    background-color: #C4B35D !important;
-    z-index: 9999;
-    position: absolute;
-    width: 50%;
-    height:70vh;    
+.residential::before {
+  content: "";
+  background-color: #c4b35d !important;
+  border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.093), #0000008b);
+  z-index: 999;
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  left: 50%;
+  z-index: -1;
+  animation: slideIn 1s linear;
+}
+@keyframes slideIn {
+  from {
+    left: 100%;
+  }
+  to {
     left: 50%;
-    z-index: -1;
+  }
 }
 
-.benifit-div{
-    width: 30%;
+.benifit-div {
+  width: 30%;
 }
-.residential-h2>h2{
-    font-size: 50px !important;
+.residential-h2 > h2 {
+  font-size: 60px !important;
+}
+
+ /* Solar Panel Section CSS Start  */
+
+.solar-panel{
+  height: 150vh;
+}
+.solar-panel-img>img{
+  height: 100vh;
+  object-fit: cover;
+}
+.about-solar-panel{
+  width: 40%;
+  text-align: center;
+  background-color: #c4b35d;
+  top:75vh;
+}
+.solar-panel-btn{
+  background-color: white;
+  width: 40%;
+}
+.about-solar-panel>h2{
+  font-size: 50px;
+}
+.about-solar-panel>p{
+  font-size: 18px;
+}
+.solar-panel-btn>a{
+  color: #c4b35d;
+}
+.solar-panel-btn:hover{
+  background-color: #595125;
+}
+
+ /* About Us Section CSS Start  */
+
+
+.about-us{
+  height: 100vh;
+}
+.about-content{
+  width: 55%;
+}
+.child-about{
+  width: 30%;
+}
+.about-content>p{
+  line-height: 30px;
+  font-weight:600;
+  font-size: 18px;
+  height: 25vh;
+}
+.child-about>h2{
+  font-size: 55px;
+  color: #c4b35d;
+  font-weight: bold;
+}
+.about-contect-2{
+  width: 40%;
+  height: 100vh;
+  background-color: #c4b35d;
 }
