@@ -10,7 +10,7 @@
     width: 80%;
   }
   .hero-section{
-    height: 145vh;
+    height: 160vh;
   }
 }
 
@@ -322,7 +322,7 @@
     padding-top: 0px !important;
   }
   .residential{
-    height:160vh;
+    height:167vh;
   }
   .benifit-div-3{
     margin: auto;
@@ -333,7 +333,7 @@
     padding-top: 5%;
   }
   .residential::before{
-    height: 160vh;
+    height: 167vh;
   }
   .residential-h2 {
     padding-bottom:30px !important;
@@ -400,3 +400,63 @@
     margin: auto;
   }
 }
+
+
+
+
+
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .about-solar-panel {
+      width: 90%; /* Increase width for smaller screens */
+      padding: 15px;
+      top: 60%; /* Adjust vertical positioning */
+  }
+
+  .about-solar-panel h2 {
+      font-size: 1.8rem; /* Smaller heading size */
+  }
+
+  .about-solar-panel p {
+      font-size: 1rem; /* Adjust paragraph font size */
+      padding-top: 1rem;
+  }
+
+  .solar-panel-btn {
+      margin-top: 3rem;
+      padding: 10px 20px; /* Reduce padding for buttons */
+      font-size: 0.9rem;   /* Adjust button text size */
+  }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .about-solar-panel {
+      width: 100% !important;
+      top: 65%; /* Further adjustment for mobile */
+      padding: 10px;
+  }
+
+  .about-solar-panel h2 {
+      font-size: 1.5rem; /* Smaller font size */
+  }
+
+  .about-solar-panel p {
+      font-size: 0.9rem;
+  }
+
+  .solar-panel-btn {
+      padding: 8px 15px; /* Smaller button */
+      font-size: 0.85rem; /* Smaller button text */
+  }
+  .solar-panel-btn{
+    width: 100%;
+  }
+}
+
+
+
+

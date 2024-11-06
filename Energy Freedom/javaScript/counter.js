@@ -3,7 +3,7 @@ $(".counter").each(function () {
       countTo = $this.attr("data-num");
     delayTo = $this.attr("delay");
     if (!delayTo) {
-      delayTo = 1000;
+      delayTo = 2000;
     }
     $({ countNum: $this.text() }).animate(
       { countNum: countTo },
