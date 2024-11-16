@@ -1,0 +1,21 @@
+@media screen and (max-width:1025px) {
+    .smoothScroll{
+        padding-block: 0px !important;
+    }
+    .nav {
+        width: 100% !important;
+    }
+    
+}
+@media screen and (max-width:769px) {
+    .smoothScroll{
+        padding-block: 13px !important;
+    }
+}
+@media screen and (max-width:426px) {
+    .navbar-collapse{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }.navigationwrape {
+        width: 100% !important;
+    }
+}

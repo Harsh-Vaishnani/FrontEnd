@@ -9,13 +9,10 @@
     height: 90vh;
     width: 80%;
   }
-  .hero-section{
+  .hero-section {
     height: 160vh;
   }
 }
-
-
-
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   .nav-ul > li > a {
@@ -27,13 +24,10 @@
   .clean-first > h2 {
     font-size: 45px;
   }
-  .hero-section{
+  .hero-section {
     height: 150vh;
   }
 }
-
-
-
 
 @media only screen and (max-width: 768px) and (min-width: 426px) {
   .canvas-bg-color {
@@ -45,7 +39,7 @@
   .main-headline > p {
     font-size: 4rem;
   }
-  .hero-section{
+  .hero-section {
     height: 145vh;
   }
   .hero-img {
@@ -75,45 +69,41 @@
     height: 130vh;
   }
 
-  .blog-card{
+  .blog-card {
     width: 45%;
   }
-  .enengy-parent-card{
+  .enengy-parent-card {
     flex-wrap: wrap;
   }
-  .blog-card-3{
-    padding-top:3%;
+  .blog-card-3 {
+    padding-top: 3%;
     margin: auto;
   }
 
-
-  .abc-energy{
+  .abc-energy {
     height: 120vh;
   }
   .benifit-div {
     width: 45%;
   }
-  .parent-benifit{
+  .parent-benifit {
     flex-wrap: wrap;
   }
-  .residential{
-    height:135vh;
+  .residential {
+    height: 135vh;
   }
-  .benifit-div-3{
+  .benifit-div-3 {
     margin: auto;
     padding-top: 5%;
   }
-  .residential::before{
+  .residential::before {
     height: 135vh;
   }
   .residential-h2 {
-    padding-bottom:40px !important;
-    padding-top:15px !important;
+    padding-bottom: 40px !important;
+    padding-top: 15px !important;
   }
 }
-
-
-
 
 @media only screen and (max-width: 426px) and (min-width: 375px) {
   .canvas-bg-color {
@@ -169,66 +159,60 @@
     top: 8vh;
   }
 
-
-  .clean-energy{
+  .clean-energy {
     height: 130vh;
   }
-  .blog-card{
+  .blog-card {
     width: 100%;
   }
-  .blog-card>p{
-    padding-bottom:0px !important;
+  .blog-card > p {
+    padding-bottom: 0px !important;
   }
-  .enengy-parent-card{
+  .enengy-parent-card {
     flex-wrap: wrap;
   }
-  .blog-card-3{
-    padding-top:10%;
+  .blog-card-3 {
+    padding-top: 10%;
     margin: auto;
   }
-  .blog-card-2{
-    padding-top:10%;
+  .blog-card-2 {
+    padding-top: 10%;
     margin: auto;
   }
 
-
-  .abc-energy{
+  .abc-energy {
     height: 155vh;
   }
   .benifit-div {
     width: 100%;
     text-align: center;
   }
-  .parent-benifit{
+  .parent-benifit {
     flex-wrap: wrap;
     padding-top: 0px !important;
   }
-  .residential{
-    height:180vh;
+  .residential {
+    height: 180vh;
   }
-  .benifit-div-3{
+  .benifit-div-3 {
     margin: auto;
     padding-top: 5%;
   }
-  .benifit-div-2{
+  .benifit-div-2 {
     margin: auto;
     padding-top: 5%;
   }
-  .residential::before{
+  .residential::before {
     height: 180vh;
   }
   .residential-h2 {
-    padding-bottom:40px !important;
-    padding-top:15px !important;
+    padding-bottom: 40px !important;
+    padding-top: 15px !important;
   }
-  .residential-h2 > h2{
-  font-size: 50px !important;
-
+  .residential-h2 > h2 {
+    font-size: 50px !important;
   }
 }
-
-
-
 
 @media only screen and (max-width: 376px) and (min-width: 320px) {
   .canvas-bg-color {
@@ -286,70 +270,62 @@
     top: 5vh;
   }
 
-
-  .clean-energy{
+  .clean-energy {
     height: 135vh;
   }
-  .blog-card{
+  .blog-card {
     width: 100%;
   }
-  .blog-card>p{
-    padding-bottom:0px !important;
+  .blog-card > p {
+    padding-bottom: 0px !important;
   }
-  .enengy-parent-card{
+  .enengy-parent-card {
     flex-wrap: wrap;
   }
-  .blog-card-3{
-    padding-top:10%;
+  .blog-card-3 {
+    padding-top: 10%;
     margin: auto;
   }
-  .blog-card-2{
-    padding-top:10%;
+  .blog-card-2 {
+    padding-top: 10%;
     margin: auto;
   }
 
-
-
-  .abc-energy{
+  .abc-energy {
     height: 155vh;
   }
   .benifit-div {
     width: 100%;
     text-align: center;
   }
-  .parent-benifit{
+  .parent-benifit {
     flex-wrap: wrap;
     padding-top: 0px !important;
   }
-  .residential{
-    height:167vh;
+  .residential {
+    height: 167vh;
   }
-  .benifit-div-3{
+  .benifit-div-3 {
     margin: auto;
     padding-top: 5%;
   }
-  .benifit-div-2{
+  .benifit-div-2 {
     margin: auto;
     padding-top: 5%;
   }
-  .residential::before{
+  .residential::before {
     height: 167vh;
   }
   .residential-h2 {
-    padding-bottom:30px !important;
-    padding-top:15px !important;
+    padding-bottom: 30px !important;
+    padding-top: 15px !important;
   }
-  .residential-h2 > h2{
-  font-size: 40px !important;
-
+  .residential-h2 > h2 {
+    font-size: 40px !important;
   }
 }
 
-
-
-
-@media screen and (max-width: 319px) 
-{
+@media screen and (max-width: 319px) {
   .canvas-bg-color {
     width: 55% !important;
   }
@@ -378,85 +354,75 @@
     gap: 16px;
   }
 
-
-  .clean-energy{
+  .clean-energy {
     height: 150vh;
   }
-  .blog-card{
+  .blog-card {
     width: 100%;
   }
-  .blog-card>p{
-    padding-bottom:0px !important;
+  .blog-card > p {
+    padding-bottom: 0px !important;
   }
-  .enengy-parent-card{
+  .enengy-parent-card {
     flex-wrap: wrap;
   }
-  .blog-card-3{
-    padding-top:10%;
+  .blog-card-3 {
+    padding-top: 10%;
     margin: auto;
   }
-  .blog-card-2{
-    padding-top:10%;
+  .blog-card-2 {
+    padding-top: 10%;
     margin: auto;
   }
 }
-
-
-
-
-
 
 /* Media Queries for Responsive Design */
 
 /* For tablets and smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
   .about-solar-panel {
-      width: 90%; /* Increase width for smaller screens */
-      padding: 15px;
-      top: 60%; /* Adjust vertical positioning */
+    width: 90%; /* Increase width for smaller screens */
+    padding: 15px;
+    top: 60%; /* Adjust vertical positioning */
   }
 
   .about-solar-panel h2 {
-      font-size: 1.8rem; /* Smaller heading size */
+    font-size: 1.8rem; /* Smaller heading size */
   }
 
   .about-solar-panel p {
-      font-size: 1rem; /* Adjust paragraph font size */
-      padding-top: 1rem;
+    font-size: 1rem; /* Adjust paragraph font size */
+    padding-top: 1rem;
   }
 
   .solar-panel-btn {
-      margin-top: 3rem;
-      padding: 10px 20px; /* Reduce padding for buttons */
-      font-size: 0.9rem;   /* Adjust button text size */
+    margin-top: 3rem;
+    padding: 10px 20px; /* Reduce padding for buttons */
+    font-size: 0.9rem; /* Adjust button text size */
   }
 }
 
 /* For mobile phones (max-width: 480px) */
 @media (max-width: 480px) {
   .about-solar-panel {
-      width: 100% !important;
-      top: 65%; /* Further adjustment for mobile */
-      padding: 10px;
+    width: 100% !important;
+    top: 65%; /* Further adjustment for mobile */
+    padding: 10px;
   }
 
   .about-solar-panel h2 {
-      font-size: 1.5rem; /* Smaller font size */
+    font-size: 1.5rem; /* Smaller font size */
   }
 
   .about-solar-panel p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   .solar-panel-btn {
-      padding: 8px 15px; /* Smaller button */
-      font-size: 0.85rem; /* Smaller button text */
+    padding: 8px 15px; /* Smaller button */
+    font-size: 0.85rem; /* Smaller button text */
   }
-  .solar-panel-btn{
+  .solar-panel-btn {
     width: 100%;
   }
 }
-
-
-
-
