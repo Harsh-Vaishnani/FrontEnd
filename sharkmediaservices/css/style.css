@@ -262,11 +262,11 @@ p {
 }
 .welcomeImg:before {
   content: "";
-  border: 1px solid #fff;
+  width: 75%;
+  border-block: 2px solid white;
   position: absolute;
   top: 20px;
-  left: 20px;
-  right: 20px;
+  right: 12.5% !important;
   bottom: 20px;
 }
 .welcomeLinks {
@@ -346,8 +346,8 @@ p {
   display: block;
   min-height: 100%;
   min-width: 100%;
-  max-width: inherit;
-  filter: brightness(0.3);
+  max-width: -webkit-fill-available;
+  filter: brightness(0.4);
 }
 .videoslider {
   position: absolute;
@@ -868,6 +868,8 @@ a.wit-btn {
   background: url(../images/choose-bg.jpg) no-repeat top;
   background-size: cover;
   padding: 100px 0;
+  /* filter: brightness(0.8); */
+  border-image: fill 0 linear-gradient(#0001, #000);
 }
 .whychoose-wrap h1 {
   text-align: left;
@@ -909,6 +911,23 @@ a.wit-btn {
 }
 .inner-box {
   position: relative;
+}
+.employee-card {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.client-card {
+  width: 30% !important;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.parent-client-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .default-portfolio-item li .overlay-box {
   position: absolute;
@@ -1630,4 +1649,11 @@ textarea.form-control {
   .slider-wrap h2 {
     font-size: 18px;
   }
+}
+
+mark {
+  background-color: #e6ee0442;
+  color: black;
+  font-weight: 600;
+  padding-inline: 5px;
 }
